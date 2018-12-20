@@ -4,6 +4,8 @@ const db = require('./db');
 
 const server = createServer();
 
+// console.log(process.env.FRONTEND_URL);
+
 // TODO Use express middlewere to handle cookies (JWT)
 // TODO Use express middleware to populate current user
 
